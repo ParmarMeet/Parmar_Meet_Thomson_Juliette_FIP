@@ -4,7 +4,9 @@ FINAL FIP FOR SUMMER 2023
 FINAL INTEGRATED
 PROJECT (FIP) –
 Rebrand & Marketing Campaign
-
+ 
+            OUR BRAND : BURPLE 
+            
 # Description 
 
 The "Burple Beverages" website is designed to effectively promote and showcase the brand's soft drink offerings. It comprises five key pages, each serving a specific purpose:
