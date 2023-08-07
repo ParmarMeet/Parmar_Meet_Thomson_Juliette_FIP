@@ -1,0 +1,53 @@
+/* Your existing CSS code */
+
+/* Additional CSS for the mobile menu */
+.burger-menu {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px;
+}
+
+@media (max-width: 768px) {
+  .grid-con {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+  }
+
+  .box-header {
+    grid-column: 1 / span 12;
+    text-align: center;
+  }
+
+  .burger-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .burger-menu li {
+    margin-bottom: 10px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -13,6 +13,7 @@ body {
   padding: 10px;
   z-index: 1;
 }
+
 .box-header {
     background-color: rgb(201 204 255);
     color: black;
@@ -41,13 +42,13 @@ body {
 
 /* Header Styles */
 #main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: gold; /* Update header background color */
-  color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
 }
 
 
@@ -65,6 +66,10 @@ body {
 @media screen and (max-width: 768px) {
     .flavours-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .text-white
+    {
+      color:white;
     }
 }
 
@@ -1217,16 +1222,17 @@ margin-left: 200px;
             font-style: italic;
         }
 
-@media screen and (min-width: 768px) {
-    button img {
-        border-radius: 50%;
-        left: -2px;
-        position: relative;
-        top: 2px;
-        width: 594px;
-        opacity: 0.9;
-    }
+@media screen and (min-width: 768px)
+button>img {
+    border-radius: 50%;
+    left: -2px;
+    position: relative;
+    top: 2px;
+    width: 594px;
+    opacity: 0.9;
 }
+
+
 
 
   button:before {
