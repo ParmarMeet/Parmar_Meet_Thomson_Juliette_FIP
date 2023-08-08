@@ -1,3 +1,5 @@
+
+
 (function() {
   "use strict";
   console.log("fired");
@@ -24,25 +26,25 @@ img.addEventListener("mouseout", () => {
   popup.style.visibility = "hidden";
 });
 
-let meetButt = document.querySelectorAll('.butt-1-contact-us a');
+let junishButt = document.querySelectorAll('.butt-1-contact-us a');
 let lightBoxContactUs = document.querySelector('#lightbox-contact-us');
 
-function loadmeetData() {
-  lightBoxContactUs.querySelector('h3').textContent = meetButt[this.dataset.member].headline;
-  lightBoxContactUs.querySelector('p').textContent = meetButt[this.dataset.member].bio;
+function loadJunishData() {
+  lightBoxContactUs.querySelector('h3').textContent = junishButt[this.dataset.member].headline;
+  lightBoxContactUs.querySelector('p').textContent = junishButt[this.dataset.member].bio;
 }
 
-meetButt.forEach(hero => hero.addEventListener('click', loadmeetData));
+junishButt.forEach(hero => hero.addEventListener('click', loadJunishData));
 
-let JullieteButt = document.querySelectorAll('.butt-1-contact-us a');
+let loganButt = document.querySelectorAll('.butt-1-contact-us a');
 let lightBox1ContactUs = document.querySelector('#lightbox1-contact-us');
 
-function loadJullieteData() {
-  lightBox1ContactUs.querySelector('h3').textContent = JullieteButt[this.dataset.member].headline;
-  lightBox1ContactUs.querySelector('p').textContent = JullieteButt[this.dataset.member].bio;
+function loadLoganData() {
+  lightBox1ContactUs.querySelector('h3').textContent = loganButt[this.dataset.member].headline;
+  lightBox1ContactUs.querySelector('p').textContent = loganButt[this.dataset.member].bio;
 }
 
-JullieteButt.forEach(hero => hero.addEventListener('click', loadJullieteData));
+loganButt.forEach(hero => hero.addEventListener('click', loadLoganData));
 
 let nutritionalFactsBtn = document.getElementById("toggle-nutritional-facts");
 nutritionalFactsBtn.addEventListener("click", toggleNutritionalFacts);
